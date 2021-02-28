@@ -1,0 +1,53 @@
+*{
+   
+   
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(197, 226, 226);
+}
+.container{
+border: none;
+flex-wrap: nowrap;
+}
+
+.container .card-deck .card .card-body b{
+    font-size: 20px;
+}
+.container .card-deck .card .card-body p{
+    transform: translateX(2rem);
+}
+.container .card-deck .card .card-body span img{
+    width:20%
+}
+.container .card-deck .row .col-6{
+    transform: translateY(-20rem);
+}
+.container .row .col-6 .card .card-header{
+    height:70px;
+}
+.container .row .col-6 .card .card-header .navbar{
+   display: flex;
+   justify-content: space-between;
+
+}
+.container .row .col-6 .card .card-header .navbar .left{
+    display: flex;
+}
+.container .row .col-6 .card .card-header .navbar .left h6{
+    font-family: 12px;
+    transform: translateX(-1rem);
+    
+}
+.container .row .col-6 .card .card-header .navbar .right ul{
+  display:flex;
+}
+
+.container .row .col-6 .card .card-header .navbar .right ul li  {
+    padding-left:  16px;
+    
+}
+.container .row .col-6 .card .card-header .navbar .right ul li p {
+    transform: translateX(-1.5rem); 
+   
+}
